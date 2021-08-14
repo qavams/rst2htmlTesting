@@ -1,0 +1,28 @@
+.c { 
+	background-color: rgba(66, 235, 131, 0.8);
+	text-align: center;
+	font-size: 1em;
+	border-radius: 10px;
+    font-family: "myFirstFont";
+    text-align: justify;
+    padding: 10px 0;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(BNazanin.ttf);
+}
+.d { 
+
+	text-align: center;
+	font-family: "Serif";
+	font-size: 1em;
+	border-radius: 10px;
+    text-align: justify;
+	padding: 10px 0;
+	background-image: url('a.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+

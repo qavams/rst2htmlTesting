@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="s1.css" />
+    <link rel="stylesheet" href="s2.css" />
+    <link rel="stylesheet" href="s3.css" />
+</head>
+<body><!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="sx.css">
+<meta dir="rtl" charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="header">
+  <a href="#default" class="logo">نمونه rst</a>
+  <div class="header-right">
+    <a class="active" href="first.html">صفحه اصلی</a>
+    <a href="#id2">تماس</a>
+  </div>
+</div>
+</body>
+</html>
+    <img class="d a" src="Capture.JPG" alt="" />
+    <ol class="d" type="1">
+        <li>نمونه کد اصلی
+            <pre class="code cpp ltr" source="f2.c"><span class="ln"> 1 </span><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp">
+</span><span class="ln"> 2 </span><span class="cp"></span><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="ln"> 3 </span><span class="p">{</span>
+<span class="ln"> 4 </span>   <span class="kt">int</span> <span class="n">num1</span><span class="p">,</span> <span class="n">num2</span><span class="p">,</span> <span class="n">flag_var</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">;</span>
+<span class="ln"> 5 </span>
+<span class="ln"> 6 </span>   <span class="cm">/* Ask user to input the from/to range
+</span><span class="ln"> 7 </span><span class="cm">    * like 1 to 100, 10 to 1000 etc.
+</span><span class="ln"> 8 </span><span class="cm">    */</span>
+<span class="ln"> 9 </span>   <span class="n">printf</span><span class="p">(</span><span class="s">"Enter two range(input integer numbers only):"</span><span class="p">);</span>
+<span class="ln">10 </span>   <span class="c1">//Store the range in variables using scanf
+</span><span class="ln">11 </span><span class="c1"></span>   <span class="n">scanf</span><span class="p">(</span><span class="s">"%d %d"</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">num1</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">num2</span><span class="p">);</span>
+<span class="ln">12 </span>
+<span class="ln">13 </span>   <span class="c1">//Display prime numbers for input range
+</span><span class="ln">14 </span><span class="c1"></span>   <span class="n">printf</span><span class="p">(</span><span class="s">"Prime numbers from %d and %d are:</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">num1</span><span class="p">,</span> <span class="n">num2</span><span class="p">);</span>
+<span class="ln">15 </span>   <span class="k">for</span><span class="p">(</span><span class="n">i</span><span class="o">=</span><span class="n">num1</span><span class="o">+</span><span class="mi">1</span><span class="p">;</span> <span class="n">i</span><span class="o">&lt;</span><span class="n">num2</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span>
+<span class="ln">16 </span>   <span class="p">{</span>
+<span class="ln">17 </span>      <span class="n">flag_var</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
+<span class="ln">18 </span>      <span class="k">for</span><span class="p">(</span><span class="n">j</span><span class="o">=</span><span class="mi">2</span><span class="p">;</span> <span class="n">j</span><span class="o">&lt;=</span><span class="n">i</span><span class="o">/</span><span class="mi">2</span><span class="p">;</span> <span class="o">++</span><span class="n">j</span><span class="p">)</span>
+<span class="ln">19 </span>      <span class="p">{</span>
+<span class="ln">20 </span>         <span class="k">if</span><span class="p">(</span><span class="n">i</span><span class="o">%</span><span class="n">j</span><span class="o">==</span><span class="mi">0</span><span class="p">)</span>
+<span class="ln">21 </span>         <span class="p">{</span>
+<span class="ln">22 </span>            <span class="n">flag_var</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span>
+<span class="ln">23 </span>            <span class="k">break</span><span class="p">;</span>
+<span class="ln">24 </span>         <span class="p">}</span>
+<span class="ln">25 </span>      <span class="p">}</span>
+<span class="ln">26 </span>      <span class="k">if</span><span class="p">(</span><span class="n">flag_var</span><span class="o">==</span><span class="mi">0</span><span class="p">)</span>
+<span class="ln">27 </span>         <span class="n">printf</span><span class="p">(</span><span class="s">"%d</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span><span class="n">i</span><span class="p">);</span>
+<span class="ln">28 </span>  <span class="p">}</span>
+<span class="ln">29 </span>  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="ln">30 </span><span class="p">}</span></pre>
+        </li>
+    </ol>
+    <ol class="d a d" type="1">
+        <li>نمونه کد متناسب
+            <pre class="code cpp ltr" source="f1.c"><span class="ln"> 1 </span><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp">
+</span><span class="ln"> 2 </span><span class="cp"></span><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="ln"> 3 </span><span class="p">{</span>
+<span class="ln"> 4 </span>   <span class="cm">/* printf function displays the content that is
+</span><span class="ln"> 5 </span><span class="cm">    * passed between the double quotes.
+</span><span class="ln"> 6 </span><span class="cm">    */</span>
+<span class="ln"> 7 </span>   <span class="n">printf</span><span class="p">(</span><span class="s">"Hello World"</span><span class="p">);</span>
+<span class="ln"> 8 </span>   <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="ln"> 9 </span><span class="p">}</span></pre>
+            <pre data-language="cpp"><span class="k">return</span> <span class="n">x</span><span class="p">;</span></pre>
+            <pre>"ab12cd +34.34-45.1slkdfj4a5   33.3   3  5"
+12  34.34  45.1  4  5  33.3  3  5
+double* extns(const char*s);</pre>
+        </li>
+    </ol>
+    <p class="dx b"><a href="pos.html">مطلب شماره بعد</a></p>
+    <!-- ::
+.. title: post2 -->
+    <section id="id2" class="dx a b">
+        <h1>تماس از طریق تلگرام</h1>
+        <p>Qavams</p>
+    </section>
+</body>
+</html>
